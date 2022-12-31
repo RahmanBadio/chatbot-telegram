@@ -1,7 +1,6 @@
 import openai
 import asyncio
 from telebot.async_telebot import AsyncTeleBot
-
 import requests
 import time
 import sys
@@ -27,25 +26,18 @@ async def echo_message(message):
     response = openai.Completion.create(model="text-davinci-003", prompt=message.text, temperature=0, max_tokens=1000)
     await bot.reply_to(message, response['choices'][0]['text'])
 
-
-#asyncio.run(bot.polling())
-
 print("""
-
-                      ██████   ██████  ████████
-                      ██   ██ ██    ██    ██
-                      ██████  ██    ██    ██
-                      ██   ██ ██    ██    ██
-                      ██████   ██████     ██
-
+██████   ██████  ████████
+██   ██ ██    ██    ██
+██████  ██    ██    ██
+██   ██ ██    ██    ██
+██████   ██████     ██
 """)
 
 z = """
-                       Checking the Server !!!
-
-        [+]█████████████████████████████████████████████████[+]
-
-                            SERVER START
+                 Checking the Server !!!
+[+]█████████████████████████████████████████████████[+]
+                    SERVER RUNNING !!!
 """
 
 for c in z:
