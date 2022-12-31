@@ -1,6 +1,8 @@
-#untuk mendapatkan api telegram silahkan chat BotFather
+# Chat Both-telegram-openai
 
-#untuk mendapatkan api key openai
+# untuk mendapatkan api telegram silahkan buat bot di BotFather
+
+# untuk mendapatkan api key openai
 
 create account di https://openai.com/api/
   
