@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+openai
+asyncio
+aiohttp
+requests
