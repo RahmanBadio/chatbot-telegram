@@ -1,6 +1,6 @@
-# Chat Both-telegram-openai
+# ChatBot
 
-# untuk mendapatkan api telegram silahkan buat bot di BotFather
+# untuk mendapatkan api telegram bot silahkan buat bot di BotFather
 
 # untuk mendapatkan api key openai
 
